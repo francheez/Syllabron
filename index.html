@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabron</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Syllabron</h1>
+    <textarea class="sounds" placeholder="C=p,t,k         V=a,e,i,o,u" style="resize: none; height: 80px;"></textarea> <br>
+    <input class="syl-structure" placeholder="(C)V(C)" type="text"> <br>
+    <div class="input-wrapper">
+        <span>Number of Syllables : </span><input class="syl-number" min="1" max="10" value="1" type="number"> 
+    </div>
+    <div class="input-wrapper">
+        <span>Number of Words : </span><input class="word-number" min="1" max="10" value="1" type="number"> 
+    </div> 
+    <button class="generate">Generate</button> <br>
+    <div class="generated-words"></div>
+</body>
+<script src="app.js"></script>
+</html>

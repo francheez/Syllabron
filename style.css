@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, input, textarea, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Textarea styling */
+textarea.sounds {
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Input fields */
+input[type="text"], input[type="number"] {
+    margin: 10px 0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    width: 80px;
+}
+
+/* Labels */
+span {
+    font-weight: 500;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Button */
+button.generate {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.generate:hover {
+    background-color: #45a049;
+}
+
+/* Generated words section */
+.generated-words {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 300px;
+    min-height: 50px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.input-wrapper {
+    display: flex;
+}
